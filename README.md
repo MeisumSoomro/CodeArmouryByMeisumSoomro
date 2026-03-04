@@ -20,11 +20,8 @@ This repository is my **personal armoury of code** — a place where I practice,
 ```
 CodeArmouryByMeisumSoomro/
 │
-├── daily-log.md        # Continuous daily updates in DD-MM-YYYY format
-├── summaries/          # Auto-generated weekly & monthly summaries
-├── python-projects/    # AI, context engineering, automation
-├── js-projects/        # Web dashboards, interactive apps
-├── go-projects/        # Backend services, context servers
+├── daily-log.md        # Continuous daily updates 
+├── Projects/           # 
 └── README.md           # Portfolio overview
 ```
 
@@ -46,18 +43,4 @@ This repo is more than just practice — it’s a **living armoury of experiment
 
 ## 📈 Achievements Timeline
 
-### March 2026
-- 🚀 Launched **CodeArmouryByMeisumSoomro** as a learning + portfolio hub.  
-- 🛠️ Built first Python experiment (context engineering chatbot).  
-- 📚 Established daily logging workflow in `daily-log.md`.  
-- ⚡ Automated weekly & monthly summaries with GitHub Actions.  
-
-### April 2026
-- 🌐 Developed JavaScript dashboard prototype for context visualization.  
-- 🔗 Integrated Python + JS projects into a unified workflow.  
-- 🏗️ Began Go backend service for lightweight context management.  
-
-### May 2026
-- 🎨 Refined and polished first multi-language project.  
-- 📢 Deployed demo publicly and linked it to portfolio.  
-- 🏆 Reached milestone of **3 completed projects** across different languages. 
+### To Be Updated
