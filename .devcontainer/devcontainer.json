@@ -1,0 +1,27 @@
+{
+  "name": "Polyglot Playground",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": { "version": "3.11" },
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" },
+    "ghcr.io/devcontainers/features/go:1": { "version": "1.21" },
+    "ghcr.io/devcontainers/features/rust:1": { "version": "latest" },
+    "ghcr.io/devcontainers/features/java:1": { "version": "21" },
+    "ghcr.io/devcontainers/features/dotnet:1": { "version": "8.0" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-vscode.vscode-typescript-next",
+        "golang.go",
+        "rust-lang.rust-analyzer",
+        "vscjava.vscode-java-pack",
+        "fwcd.kotlin",
+        "ms-dotnettools.csharp",
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y gcc g++ make && curl -s https://get.sdkman.io | bash && source $HOME/.sdkman/bin/sdkman-init.sh && sdk install kotlin"
+}
